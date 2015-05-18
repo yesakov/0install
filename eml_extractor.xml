@@ -3,11 +3,11 @@
   <name>Eml_Extractor</name>
   <summary>Attachments extractor for .eml files</summary>
   <description>
-    This program extract all attachments for the given .eml file or from all .eml files in given folder 
+    This program extract all attachments for the given .eml file or for all .eml files in given folder 
   </description>
 
 
-  <implementation main='extract.py' id="." version="0.1-pre">
+  <implementation main='extract.py' id="." version="1.0">
     <command name='run' path='extract.py'>
       <runner interface='http://repo.roscidus.com/python/python'>
 	<version before='3'/>
