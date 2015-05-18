@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Eml_Extractor</name>
+  <summary>Attachments extractor for .eml files</summary>
+  <description>
+    This program extract all attachments for the given .eml file or from all .eml files in given folder 
+  </description>
+
+  <homepage>http://0install.net/0release.xml</homepage>
+
+  <feed-for interface='http://0install.net/tests/HelloWorld.xml'/>
+
+  <!--
+    Note: The main attribute here is to support 0launch < 0.53.
+    Newer versions will use the <command>.
+  -->
+  <implementation main='extract.py' id="." version="0.1-pre">
+    <command name='run' path='extract.py'>
+      <runner interface='http://repo.roscidus.com/python/python'>
+	<version before='3'/>
+      </runner>
+    </command>
+  </implementation>
+</interface>
