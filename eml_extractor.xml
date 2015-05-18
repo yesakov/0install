@@ -6,9 +6,6 @@
     This program extract all attachments for the given .eml file or from all .eml files in given folder 
   </description>
 
-  <homepage>http://0install.net/0release.xml</homepage>
-
-  <feed-for interface='http://0install.net/tests/HelloWorld.xml'/>
 
   <!--
     Note: The main attribute here is to support 0launch < 0.53.
