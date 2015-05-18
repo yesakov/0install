@@ -7,10 +7,6 @@
   </description>
 
 
-  <!--
-    Note: The main attribute here is to support 0launch < 0.53.
-    Newer versions will use the <command>.
-  -->
   <implementation main='extract.py' id="." version="0.1-pre">
     <command name='run' path='extract.py'>
       <runner interface='http://repo.roscidus.com/python/python'>
